@@ -1,0 +1,37 @@
+<ion-header>
+</ion-header>
+
+<ion-content class="background">
+
+  <ion-card color="light" *ngFor="let item of data">
+    <div align="center">
+    <ion-icon name="person">
+    </ion-icon>
+
+    <div class="margintwo">
+    <ion-label>
+      <h1>{{item.nama}}</h1>
+    </ion-label>
+    <ion-label>
+      <h2>
+        {{item.domisili}}
+      </h2>
+    </ion-label>
+  </div>
+  </div>
+  </ion-card>
+
+  <p style="align-items: center;text-align: center;">----- ruangkampus -----</p>
+  <ion-button expand="block">
+    Pengaturan
+  </ion-button>
+  <ion-button expand="block">
+    Privasi
+  </ion-button>
+  <ion-button expand="block">
+    Bantuan
+  </ion-button>
+  <ion-button (click)="logout()" color="danger" slot="" expand="block">
+    logout
+  </ion-button>
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+        Nama Projek | List Data
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding color="primary">
+    <h2>Daftar Siswa</h2>
+    <ion-list>
+      <ion-item *ngFor="let item of data">
+        Username :
+        <p>{{item.username}}</p>
+      </ion-item>
+      <ion-item *ngFor="let item of data">
+        Password :
+        <p>{{item.password}}</p>
+      </ion-item>
+      <ion-item *ngFor="let item of data">
+        Nama :
+        <p>{{item.nama}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>

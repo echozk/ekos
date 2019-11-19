@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Nama Projek | Cari Data
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <form>
+      <ion-item>
+        <ion-label position="floating">Masukan NPM</ion-label>
+        <ion-input type="text" name="npm" [(ngModel)]="npm" required></ion-input>
+      </ion-item>
+      <ion-button style="margin-block-start: 30px;" expand="block" type="submit" name="sbmt" (click)="cari_data()" color="primary">
+        Cari Data
+      </ion-button>
+    </form>
+  </ion-list>
+</ion-content>

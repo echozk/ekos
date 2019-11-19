@@ -1,0 +1,38 @@
+.background{
+    --background: url(../../assets/imgs/bg.png) 0 0/100% 100% no-repeat;
+  }
+  
+  .marginone{
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .margintwo{
+    padding: 5% 5%;
+  }
+  
+  .wctext{
+    --ion-font-family:  'AutographScriptEF'!important;
+    font-family:  'AutographScriptEF' !important;
+    font-size: 25px;
+  }
+  
+  .cttext {
+    font-size:7px;
+  }
+  
+  .largeicon {
+    font-size:80px;
+   }
+  
+   .passwordIcon{
+    font-size:2rem !important;
+    position: relative !important;
+    top: 22px !important;
+    margin: 0 auto !important;
+  }
+  
+  ion-icon {
+    font-size: 50px;
+  }

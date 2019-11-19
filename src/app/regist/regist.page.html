@@ -1,0 +1,49 @@
+<ion-content class="background">
+  <div class="marginone">
+
+    <div class="ion-text-center">
+      <ion-text color="light" style="font-size: 20px;">
+      Registrasi
+      </ion-text>
+    </div>
+
+    <ion-card color="light">
+        <div class="margintwo">
+          
+          <div class="ion-text-center">
+            <div class="margintwo">
+              <ion-icon name="contact"></ion-icon>
+            </div>
+          </div> 
+
+          
+          Username :
+          <ion-item>
+            <ion-input type="text" placeholder="..."  name="username" [(ngModel)]="username">
+            </ion-input>
+          </ion-item>
+          <br>
+          Password :
+          <ion-item>
+            <ion-input type="password" placeholder="..." name="password" [(ngModel)]="password">
+            </ion-input>
+          </ion-item>
+          <br>
+          Nama Lengkap :
+          <ion-item>
+            <ion-input type="nama" placeholder="..." name="nama" [(ngModel)]="nama">
+            </ion-input>
+          </ion-item>
+          <br>
+          Domisili :
+          <ion-item>
+            <ion-input type="domisili" placeholder="..." name="domisili" [(ngModel)]="domisili">
+            </ion-input>
+          </ion-item>
+          <br>
+          <ion-button expand="block" (click)="daftar()"> Daftar </ion-button>
+      </div>
+    </ion-card>
+  
+  </div>
+</ion-content>

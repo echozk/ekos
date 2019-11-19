@@ -1,4 +1,47 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+.margin-news-content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: black;
+}
+
+.margin-news {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: black;
+}
+
+.margin-news-content-g {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: black;
+}
+    
+.margin-news-g {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: black;
+}
+
+.rbljr {
+    --background: url(../../assets/imgs/rbljr.jpg) 0 0/100% 100% no-repeat;
+}
+
+.rmhs {
+    --background: url(../../assets/imgs/rmhs.jpg) 0 0/100% 100% no-repeat;
+}
+
+.rmtr {
+    --background: url(../../assets/imgs/rmtr.jpg) 0 0/100% 100% no-repeat;
+}
+
+.home {
+    --background: url(../../assets/imgs/bg.png) 0 0/100% 100% no-repeat;
 }

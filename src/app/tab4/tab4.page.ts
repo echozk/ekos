@@ -22,7 +22,7 @@ export class Tab4Page{
   }
 
   getData(){
-    var apiURL = 'http://localhost/apipia/index.php/Welcome/getData/'
+    var apiURL = 'http://192.168.100.10/apiEKO/index.php/Welcome/getData/'
     let headers = new Headers();
     this.http.get(apiURL)
     .timeout(10000)

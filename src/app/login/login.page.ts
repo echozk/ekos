@@ -51,7 +51,7 @@ login(){
   }
   else{
     // Alamat API untuk melakukan login
-    let apiURL = 'http://localhost/apipia/index.php/login/login/'
+    let apiURL = 'http://192.168.100.10/apiEKO/index.php/login/login/'
 
     // Variabel formData adalah variabel untuk melempar
     // data ke API, karena method untuk melakukan

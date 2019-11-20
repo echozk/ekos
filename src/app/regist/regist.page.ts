@@ -35,7 +35,7 @@ export class RegistPage{
   }
 
   daftar(){
-    var apiURL = 'http://localhost/apipia/index.php/Welcome/postData/' 
+    var apiURL = 'http://192.168.100.10/apiEKO/index.php/Welcome/postData/' 
     + this.username + '/' + this.password + '/' + this.nama + '/' + this.domisili;
     this.http.get(apiURL)
     .timeout(10000)
